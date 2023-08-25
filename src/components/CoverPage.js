@@ -1,11 +1,11 @@
 import React from 'react';
 import './Navbar';
-import Navbar from './Navbar.js';
+
 
 const CoverPage = () => {
   return (
     <div>
-    <Navbar />
+    
     <div className="bg-navy vh-100 flex items-center justify-center">
       <div className="tc">
         <h1 className="f1 yellow">Die Minimalisten</h1>
