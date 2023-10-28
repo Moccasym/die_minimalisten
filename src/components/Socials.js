@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Assuming you are using React Router for navigation
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import './Socials.css';
 
 const Socials = () => {
   return (
-    <nav className="pa3 bg-light-blue">
-      <ul className="list flex justify-between">
+    <nav className="nav">
+      <ul className="ul">
         <li className="mr3">
           <Link to="/">Home</Link>
         </li>
@@ -18,9 +19,9 @@ const Socials = () => {
         <li className="mr3">
           <Link to="/podcast">Podcast</Link>
         </li>
-        <li className="mr3">
+        {/* <li className="mr3">
           <Link to="/forum">Forum</Link>
-        </li>
+        </li> */}
         <li className="mr3">
           <Link to="/step-by-step-guide">Step-by-Step Guide</Link>
         </li>
