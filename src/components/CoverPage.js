@@ -9,7 +9,7 @@ const CoverPage = () => {
           <hr className="lineBreak"></hr>
           <h1>Die Minimalisten</h1>
           <hr className="lineBreak"></hr>
-          <p>Wir machen euch zu Minimalisten, damit ihr mehr Zeit und Geld habt</p>
+          <p>Die Freiheit weniger zu besitzen</p>
           <button className="button" href="/MinimalistGuide"><span>Los Geht's</span></button>
       </div>
     </div>
